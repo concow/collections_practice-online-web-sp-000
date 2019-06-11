@@ -1,18 +1,18 @@
 def sort_array_asc(array)
-  array.sort { |a, b|
-    (a <=> b)
+  array.sort { |small, large|
+    (small <=> large)
   }
   end
 
 def sort_array_desc(array)
-  array.sort { |a, b|
-    -(a <=> b)            #opposite of sorting with the '-' :)
+  array.sort { |small, large|
+    -(small <=> large)            #opposite of sorting with the '-' :)
   }
 end
 
 def sort_array_char_count(array)
-  array.sort { |a, b|
-    (a.to_a <=> b.to_a)
+  array.sort { |small_char, large_char|
+    (small_char.length <=> large_char.length)
   }
 
 end
@@ -24,5 +24,5 @@ end
 def reverse_array(array)
   array.map { |int|
     int.reverse!
-  
+
 end
