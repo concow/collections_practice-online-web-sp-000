@@ -51,11 +51,11 @@ end
 
 #adds an "s" to each word in the array except for the second element in the array
 def add_s(array)
-  array.collect { |word|
+  array.collect do |word|
     if array[1] == word
-      return word
+      word
     else
-      return word + "s"
-    }
+      word + "s"
+    end
   end
 end
