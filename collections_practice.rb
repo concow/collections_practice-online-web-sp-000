@@ -55,7 +55,7 @@ def add_s(array)
     if array[1] == word       #in the second element keep the word to == word
       word
     else
-      word + "s"
+      word + "s"            #everything else add an s
     end
     }
 end
