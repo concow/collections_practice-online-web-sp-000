@@ -4,7 +4,7 @@ def sort_array_asc(array)
     (small <=> large)
   }
 end
-
+#returns an array in descending order
 def sort_array_desc(array)
   array.sort { |small, large|
     -(small <=> large)            #opposite of sorting with the '-' :)
