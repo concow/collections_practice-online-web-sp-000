@@ -3,7 +3,7 @@ def sort_array_asc(array)
   array.sort { |small, large|
     (small <=> large)
   }
-  end
+end
 
 def sort_array_desc(array)
   array.sort { |small, large|
