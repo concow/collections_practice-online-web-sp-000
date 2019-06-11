@@ -1,3 +1,4 @@
+#returns an array in asending order
 def sort_array_asc(array)
   array.sort { |small, large|
     (small <=> large)
