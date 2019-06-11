@@ -34,7 +34,7 @@ end
 #returns all the strings in the array passed to it that star with "a"
 def find_a(array)
   array.select { |word|       #iterates array, #selects items from array when the begin with "a"
-    word[0] == "a"              #traversing the word, add
+    word[0] == "a"              #traversing the word, if 1st char == "a"
 }
 end
 #adds together all of the integers in the array and returns their sum
