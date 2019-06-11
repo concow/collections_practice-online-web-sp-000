@@ -33,7 +33,7 @@ def kesha_maker(array)
 end
 #
 def find_a(array)
-  array.select { |word|       # iterates array, #selects items from array when the 
+  array.select { |word|       # iterates array, #selects items from array when the begin with "a"
   word[0] == "a"
 }
 end
