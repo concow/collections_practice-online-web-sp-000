@@ -37,7 +37,7 @@ def find_a(array)
   word[0] == "a"
 }
 end
-#
+#adds together all of the integers in the array and returns their sum
 def sum_array(array)
   sum = 0
   array.each { |int|
@@ -49,7 +49,7 @@ end
       # using inject method (short)
       #   array.inject(:+)
 
-#
+#adds an "s" to each word in the array except for the second element in the array
 def add_s(array)
 
 end
