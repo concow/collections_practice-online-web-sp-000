@@ -43,4 +43,5 @@ def sum_array(array)
   array.each { |int|
     sum += int
   }
+  return sum
 end
