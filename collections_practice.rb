@@ -23,5 +23,4 @@ end
 #reverses an array with #reverse method
 def reverse_array(array)
   array.reverse
-}
 end
