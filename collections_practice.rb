@@ -16,7 +16,7 @@ def sort_array_char_count(array)
     (small_char.length <=> large_char.length)
   }
 end
-#
+#takes in an array and swaps the second and third elements
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   return array
@@ -48,3 +48,8 @@ end
 
       # using inject method (short)
       #   array.inject(:+)
+
+#
+def add_s(array)
+
+end
