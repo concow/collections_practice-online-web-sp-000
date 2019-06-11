@@ -45,3 +45,6 @@ def sum_array(array)
   }
   return sum          #returns the sum of the array
 end
+
+      # using inject method (short)
+      #   array.inject(:+)
