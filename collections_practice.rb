@@ -18,7 +18,8 @@ def sort_array_char_count(array)
 end
 #
 def swap_elements(array)
-
+  array[1], array[2] = array[2], array[1]
+  return array
 end
 #reverses an array with #reverse method
 def reverse_array(array)
@@ -26,6 +27,5 @@ def reverse_array(array)
 end
 #
 def kesha_maker(array)
-  array[1], array[2] = array[2], array[1]
-  return array
+
 end
