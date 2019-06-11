@@ -10,7 +10,7 @@ def sort_array_desc(array)
     -(small <=> large)            #opposite of sorting with the '-' :)
   }
 end
-
+#returns an array from smaller character count to larger character count
 def sort_array_char_count(array)
   array.sort { |small_char, large_char|
     (small_char.length <=> large_char.length)
