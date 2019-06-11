@@ -52,7 +52,7 @@ end
 #adds an "s" to each word in the array except for the second element in the array
 def add_s(array)
   array.collect { |word|
-    if array[1] == word       #in the second element
+    if array[1] == word       #in the second element keep the word to == word
       word
     else
       word + "s"
