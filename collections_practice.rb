@@ -33,8 +33,8 @@ def kesha_maker(array)
 end
 # returns all the strings in the array passed to it that star with "a"
 def find_a(array)
-  array.select { |word|       # iterates array, #selects items from array when the begin with "a"
-  word[0] == "a"
+  array.select { |word|       #iterates array, #selects items from array when the begin with "a"
+  word[0] == "a"              #traversing the word, add
 }
 end
 #adds together all of the integers in the array and returns their sum
@@ -52,7 +52,7 @@ end
 #adds an "s" to each word in the array except for the second element in the array
 def add_s(array)
   array.collect { |word|
-    if array[1] == word
+    if array[1] == word       #in the second element
       word
     else
       word + "s"
