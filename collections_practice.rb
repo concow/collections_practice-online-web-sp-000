@@ -22,7 +22,6 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.map { |int|
-    int.reverse!
+  array.reverse
 }
 end
