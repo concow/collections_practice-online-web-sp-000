@@ -16,11 +16,11 @@ def sort_array_char_count(array)
     (small_char.length <=> large_char.length)
   }
 end
-
+#
 def swap_elements(array)
 
 end
-#reverses an arrya with #reverse method
+#reverses an arry with #reverse method
 def reverse_array(array)
   array.reverse
 }
