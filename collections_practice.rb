@@ -15,7 +15,6 @@ def sort_array_char_count(array)
   array.sort { |small_char, large_char|
     (small_char.length <=> large_char.length)
   }
-
 end
 
 def swap_elements(array)
